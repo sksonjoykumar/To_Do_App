@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do App</title>
+    <link rel="stylesheet" href="/style.css" />
+    <!-- <script src="/JavaScript DOM/traversing_dom.js" defer></script> -->
+    <!-- <script src="/JavaScript DOM/manipulate_dom.js" defer></script> -->
+    <!-- <script src="/JavaScript DOM/event_listenner.js" defer></script> -->
+    <script src="/script_project.js" defer></script>
+  </head>
+  <body>
+    <!-- It's a small project -->
+    <!-- Main Container Section -->
+    <section class="container">
+      <!-- Header Section -->
+      <div class="header">
+        <h1 class="myh1">To Do Apps</h1>
+      </div>
+      <!-- Form Section -->
+      <div class="form-section">
+        <form action="#" class="new-task-container">
+          <label for="new task">Add new task</label>
+          <input type="text" name="" id="new-task" />
+          <input type="submit" id="my-id" value="Add task" />
+        </form>
+      </div>
+      <!-- To do list section -->
+      <div class="to-do-list box">
+        <h2 class="headeing-h2 myheading">Incomplete Task</h2>
+        <ul class="items">
+          <li class="item">
+            <input type="checkbox" />
+            <label>Task Name</label>
+          </li>
+          <li class="item item2">
+            <input type="checkbox" />
+            <label>Task Name</label>
+          </li>
+          <li class="item">
+            <input type="checkbox" />
+            <label>Task Name</label>
+          </li>
+        </ul>
+      </div>
+      <!-- Complete list section -->
+      <div class="complete-list box">
+        <h2 class="headeing-h2">Complete Task</h2>
+        <ul class="items">
+          <li class="item">Task Name <button class="delete">Delete</button></li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
